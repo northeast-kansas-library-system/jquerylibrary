@@ -4,11 +4,19 @@
 
 #### Title 
 
-* **Developer:** 
-* **Date:**
-* **Purpose:** 
-* **Status:** 
-* **Version:** 
+* **Developer:** George Williams (Northeast Kansas Library System)
+* **Date:** 2024-03-29
+* **Purpose:** Automatically fills in Kanopy attribute for staff logged in as SABETHA
+* **Versions:**
+  - **Koha 19.05:** created
+  - **Koha 19.11:** working 
+  - **Koha 20.05:** working 
+  - **Koha 20.11:** working 
+  - **Koha 21.05:** working 
+  - **Koha 21.11:** working 
+  - **Koha 22.05:** working 
+  - **Koha 22.11:** working 
+  - **Koha 23.05:** working 
 
 ```javascript
 
@@ -30,6 +38,12 @@
     }); 
 
 ```
+
+#### Requirements: 
+
+* Patron attribute type = "Permissions"
+* Authorised value category = "District"
+* Authorised value class = "Permissions"
 
 #### Notes:
 
